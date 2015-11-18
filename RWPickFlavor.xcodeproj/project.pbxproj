@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		113D3DF5D4EC9AF521564D18 /* Pods_RWPickFlavor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7D2E8321AE4DEBE8057467 /* Pods_RWPickFlavor.framework */; };
+		BF7E88451BFCD36D00E141AB /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF7E88441BFCD36D00E141AB /* background.jpg */; };
 		BF7F15191BFC38C7005575F4 /* RWPickFlavor.h in Headers */ = {isa = PBXBuildFile; fileRef = BF7F15181BFC38C7005575F4 /* RWPickFlavor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF7F154E1BFC589C005575F4 /* RGBAColorFromString.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7F154D1BFC589C005575F4 /* RGBAColorFromString.swift */; };
 		BF7F15511BFC58A9005575F4 /* PickFlavorDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7F154F1BFC58A9005575F4 /* PickFlavorDataSource.swift */; };
@@ -18,13 +19,13 @@
 		BF7F155B1BFC58BF005575F4 /* ScoopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7F15581BFC58BF005575F4 /* ScoopCell.swift */; };
 		BF7F155C1BFC58BF005575F4 /* ScoopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7F15591BFC58BF005575F4 /* ScoopView.swift */; };
 		BF7F155E1BFC58D1005575F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF7F155D1BFC58D1005575F4 /* Main.storyboard */; };
-		BF7F15631BFC5EDF005575F4 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF7F15621BFC5EDF005575F4 /* images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C7D2E8321AE4DEBE8057467 /* Pods_RWPickFlavor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RWPickFlavor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		368BB2CDF681E44EDE3C2070 /* Pods-RWPickFlavor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWPickFlavor.release.xcconfig"; path = "Pods/Target Support Files/Pods-RWPickFlavor/Pods-RWPickFlavor.release.xcconfig"; sourceTree = "<group>"; };
 		451E79AA659D2EF6E7596788 /* Pods-RWPickFlavor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWPickFlavor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RWPickFlavor/Pods-RWPickFlavor.debug.xcconfig"; sourceTree = "<group>"; };
+		BF7E88441BFCD36D00E141AB /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		BF7F15151BFC38C7005575F4 /* RWPickFlavor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RWPickFlavor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF7F15181BFC38C7005575F4 /* RWPickFlavor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWPickFlavor.h; sourceTree = "<group>"; };
 		BF7F151A1BFC38C7005575F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,7 +38,6 @@
 		BF7F15581BFC58BF005575F4 /* ScoopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoopCell.swift; sourceTree = "<group>"; };
 		BF7F15591BFC58BF005575F4 /* ScoopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoopView.swift; sourceTree = "<group>"; };
 		BF7F155D1BFC58D1005575F4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		BF7F15621BFC5EDF005575F4 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,7 +165,7 @@
 		BF7F15611BFC5E37005575F4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BF7F15621BFC5EDF005575F4 /* images.xcassets */,
+				BF7E88441BFCD36D00E141AB /* background.jpg */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -240,7 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF7F15631BFC5EDF005575F4 /* images.xcassets in Resources */,
+				BF7E88451BFCD36D00E141AB /* background.jpg in Resources */,
 				BF7F155E1BFC58D1005575F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
